@@ -1,0 +1,18 @@
+Day 1 - Snowflake Introduction
+
+1. What is Snowflake?
+- Cloud based Data Warehouse
+- Built on AWS / Azure / GCP
+- For Data Storage and Processing
+- Supports Structured & Semi-Structured data
+- SAAS - No infra management needed
+
+2. URL: app.snowflake.com
+
+3. Database Basics:
+Database -> Schema -> Tables
+Database = collection of Schemas
+Schema = logical representation
+Table = rows and columns
+
+Examples: my-sql, ms sql, oracle, sybase, db2

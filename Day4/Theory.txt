@@ -1,0 +1,77 @@
+Snowflake Training 
+Class-4
+
+Group by 
+having 
+handling null values 
+Sub quireis 
+Conditional statements 
+
+https://youtu.be/sTWihhqJbSY
+
+TASK-1 
+  
+  EID   AGE
+  101    19
+  102    20
+  103    30
+  
+  ---OUTPUT 
+  
+  EID   AGE     STATUS 
+  101    19       MINIOR
+  102    20      MAJOR 
+  103    30      MAJOR 
+  
+  
+   IF AGE >=20  MAJOR 
+       ELSE MINIOR 
+	   
+	   
+	   
+	CASE 
+	   WHEN   AGE >=20 THEN MAJOR ELSE MINOR 
+	
+	END  
+	
+	
+	
+	
+	
+	task :
+	
+	TABLE 
+	ID 
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	
+	
+	OUTPUT: 
+	
+	
+	ID          DAY 
+	1           MONDAY
+	2           TUES
+	3           WED
+	4
+	5
+	6
+	7           SUN
+	8        INVALID DAY 
+	9        INVALID DAY 
+
+------FIND MAANGER HE/SHE UNDER MORE THAN 5 EMPLOYEES 
+---FIND A DEPART IT HAS MORE THAN 3 EMPLOYEES 
+-- FIND DUPLICATE NAMES 
+-- FIND EMPLOYEES WHO IS HAVING THE SAME SALARY 
+
+-----DATA SHOULD BE PRESENT IN BOTH EMP /DEPENDE
+---EMPLOYEE DATA SHOULD NOT BE PRESENT IN DEPENT 
+---DATA ONLY PRESENT IN DEPENT AND NOT IN EMPLOYEE TABLE  

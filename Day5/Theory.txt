@@ -1,0 +1,62 @@
+Snowflake Training 
+Class-5
+
+Windows functions 
+CTE 
+Set operators 
+
+CTE --- Common table expression it will act as like temp table / session table 
+
+with cte_emp as 
+(
+   select * from emp 
+) select * from cte_emp  
+
+Set operators :
+
+A   B 
+
+UNION :  it will remove the duplicates from the query results 
+UNION ALL: it will not remove the duplciates from the query results 
+INTERSECT : Only the common values will get print 
+MINUES :   It should be present in only A not in B table  (A-B) 
+
+Windows functions :
+
+  ROW_NUMBER  :
+  RANK 
+  DENSE_RANK
+  LEAD 
+  LAG 
+  
+  
+  
+  tASK :
+  
+  
+  MID    MONTH_NAME AMOUNT 
+
+  1     JAN         20000
+  2      FEB         30000
+  3      MAR        10000 
+  ..
+  ...
+  ...
+  12    DEC         45000
+  
+  
+  I WNAT TO SEE PROFIT OR LOSS  (lEAD /LAG) 
+  
+    MID    MONTH_NAME AMOUNT      PROFIT_LOSS
+
+  1     JAN         20000          nA
+  2      FEB        30000        10000
+  3      MAR        10000        -20000
+  ..
+  ...
+  ...
+  12    DEC         45000
+
+  
+-----BASED ON EMPLOYEE TABLE I WNAT TO FIND 3RD HIGHEST SAL 
+---BASED ON EACH DEPARTMENT NEED HIGHEST SALRY 

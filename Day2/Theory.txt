@@ -1,0 +1,9 @@
+Snowflake Training 
+Class-2
+
+Alter table 
+Update 
+Select 
+AI Agent 
+
+https://github.com/VITechTalks/Sql-Practice/blob/main/HR%20Database%20ER%20Diagram.png
